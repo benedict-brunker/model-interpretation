@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "model-interpretation"
+version = "0.1.0"
+description = "Techniques for model interpretation"
+authors = ["benedict-brunker <benedict.e.brunker@student.uts.edu.au>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+pandas = "2.2.2"
+scikit-learn = "1.5.1"
+jupyterlab = "4.2.3"
+xgboost = "2.1.0"
+hyperopt = "0.2.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
